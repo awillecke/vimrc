@@ -22,3 +22,6 @@
 [submodule "pack/z4nder/start/vim-surround"]
 	path = pack/z4nder/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/z4nder/start/vim-airline"]
+	path = pack/z4nder/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git

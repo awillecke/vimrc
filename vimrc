@@ -20,7 +20,7 @@ set relativenumber
 autocmd FileType make setlocal noexpandtab
 
 filetype plugin indent on    " required
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
